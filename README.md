@@ -57,19 +57,31 @@ npm run lint        # Run ESLint
 
 ## Deployment
 
-### Cloudflare Pages (Recommended)
+### Cloudflare Workers (Recommended)
+
+The app deploys as a static SPA using Cloudflare Workers Static Assets.
+
+#### Git-based deployment (Cloudflare Dashboard)
 
 1. Push this repository to GitHub/GitLab
-2. Go to [Cloudflare Pages](https://pages.cloudflare.com/)
-3. Create a new project and connect your repository
+2. Go to [Cloudflare Workers & Pages](https://dash.cloudflare.com/)
+3. Create a new Worker and connect your repository
 4. Configure build settings:
-   - **Framework preset:** None (or Vite)
    - **Root directory:** `web`
    - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
+   - **Deploy command:** `npx wrangler deploy`
 5. Deploy
 
-The app includes `_headers` and `_redirects` files for proper SPA routing and security headers.
+#### Manual deployment (Wrangler CLI)
+
+```bash
+cd web
+npm install
+npm run build
+npx wrangler deploy
+```
+
+The `wrangler.toml` configures SPA routing (serves `index.html` for unmatched routes).
 
 ### Environment Variables (Optional)
 

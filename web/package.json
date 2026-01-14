@@ -1,5 +1,5 @@
 {
-  "name": "taxcalc",
+  "name": "tax-calc",
   "private": true,
   "version": "1.0.0",
   "description": "Post-Tax Income Calculator - Calculate gross pre-tax income needed to achieve desired post-tax income",
