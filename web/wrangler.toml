@@ -1,0 +1,11 @@
+# Cloudflare Pages configuration
+# This file is used when deploying via Wrangler CLI
+# For Git-based deployments, configure build settings in Cloudflare Dashboard
+
+name = "taxcalc"
+compatibility_date = "2024-01-01"
+
+# Pages-specific settings are configured in the dashboard
+# Build command: npm run build
+# Build output directory: dist
+# Root directory: web

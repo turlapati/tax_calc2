@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-accent: #e0f2fe;
+  --color-accent-foreground: #0c4a6e;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #cbd5e1;
+  --color-input: #cbd5e1;
+  --color-ring: #0ea5e9;
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-success: #10b981;
+  --color-success-foreground: #ffffff;
+  --color-gradient-from: #0ea5e9;
+  --color-gradient-to: #06b6d4;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+:root {
+  --gradient-start: #f8fafc;
+  --gradient-mid: #f1f5f9;
+  --gradient-end: #f8fafc;
+}
+
+.dark {
+  --gradient-start: #0f172a;
+  --gradient-mid: #1e293b;
+  --gradient-end: #0f172a;
+  --color-primary: #38bdf8;
+  --color-primary-foreground: #0c4a6e;
+  --color-secondary: #334155;
+  --color-secondary-foreground: #f1f5f9;
+  --color-muted: #334155;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #1e3a5f;
+  --color-accent-foreground: #bae6fd;
+  --color-border: #475569;
+  --color-input: #475569;
+  --color-background: #0f172a;
+  --color-foreground: #f1f5f9;
+  --color-card: #1e293b;
+  --color-card-foreground: #f1f5f9;
+  --color-gradient-from: #38bdf8;
+  --color-gradient-to: #22d3d1;
+  --color-success: #34d399;
+}
+
+body {
+  @apply text-foreground antialiased;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 50%, var(--gradient-end) 100%);
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass-card {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(71, 85, 105, 0.5);
+}
+
+input:focus, select:focus {
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+}
+
+.dark input:focus, .dark select:focus {
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}

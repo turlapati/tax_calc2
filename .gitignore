@@ -1,0 +1,49 @@
+/.venv
+/storage
+/task-status-list.md
+/build
+# IDE - .vscode with exceptions
+.vscode/*
+.windsurf/*
+
+# Node
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage
+coverage/
+
+# Cloudflare
+.wrangler/
+
+# Netlify
+.netlify/

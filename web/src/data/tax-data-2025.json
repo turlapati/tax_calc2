@@ -1,0 +1,352 @@
+{
+  "year": 2025,
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-13",
+  "federal": {
+    "single": [
+      { "rate": 0.10, "maxIncome": 11925 },
+      { "rate": 0.12, "maxIncome": 48475 },
+      { "rate": 0.22, "maxIncome": 103350 },
+      { "rate": 0.24, "maxIncome": 197300 },
+      { "rate": 0.32, "maxIncome": 250525 },
+      { "rate": 0.35, "maxIncome": 626350 },
+      { "rate": 0.37, "maxIncome": -1 }
+    ],
+    "marriedJointly": [
+      { "rate": 0.10, "maxIncome": 23850 },
+      { "rate": 0.12, "maxIncome": 96950 },
+      { "rate": 0.22, "maxIncome": 206700 },
+      { "rate": 0.24, "maxIncome": 394600 },
+      { "rate": 0.32, "maxIncome": 501050 },
+      { "rate": 0.35, "maxIncome": 751600 },
+      { "rate": 0.37, "maxIncome": -1 }
+    ],
+    "marriedSeparately": [
+      { "rate": 0.10, "maxIncome": 11925 },
+      { "rate": 0.12, "maxIncome": 48475 },
+      { "rate": 0.22, "maxIncome": 103350 },
+      { "rate": 0.24, "maxIncome": 197300 },
+      { "rate": 0.32, "maxIncome": 250525 },
+      { "rate": 0.35, "maxIncome": 375800 },
+      { "rate": 0.37, "maxIncome": -1 }
+    ],
+    "headOfHousehold": [
+      { "rate": 0.10, "maxIncome": 17850 },
+      { "rate": 0.12, "maxIncome": 63100 },
+      { "rate": 0.22, "maxIncome": 100500 },
+      { "rate": 0.24, "maxIncome": 191950 },
+      { "rate": 0.32, "maxIncome": 243700 },
+      { "rate": 0.35, "maxIncome": 609350 },
+      { "rate": 0.37, "maxIncome": -1 }
+    ]
+  },
+  "state": {
+    "AL": [
+      { "rate": 0.02, "maxIncome": 500 },
+      { "rate": 0.04, "maxIncome": 3000 },
+      { "rate": 0.05, "maxIncome": -1 }
+    ],
+    "AK": [],
+    "AZ": [{ "rate": 0.025, "maxIncome": -1 }],
+    "AR": [
+      { "rate": 0.02, "maxIncome": 5100 },
+      { "rate": 0.03, "maxIncome": 10300 },
+      { "rate": 0.034, "maxIncome": -1 }
+    ],
+    "CA": [
+      { "rate": 0.01, "maxIncome": 10412 },
+      { "rate": 0.02, "maxIncome": 24684 },
+      { "rate": 0.04, "maxIncome": 38959 },
+      { "rate": 0.06, "maxIncome": 54081 },
+      { "rate": 0.08, "maxIncome": 68350 },
+      { "rate": 0.093, "maxIncome": 349137 },
+      { "rate": 0.103, "maxIncome": 418966 },
+      { "rate": 0.113, "maxIncome": 698274 },
+      { "rate": 0.123, "maxIncome": -1 }
+    ],
+    "CO": [{ "rate": 0.04, "maxIncome": -1 }],
+    "CT": [
+      { "rate": 0.03, "maxIncome": 10000 },
+      { "rate": 0.05, "maxIncome": 50000 },
+      { "rate": 0.055, "maxIncome": 100000 },
+      { "rate": 0.06, "maxIncome": 200000 },
+      { "rate": 0.065, "maxIncome": 250000 },
+      { "rate": 0.069, "maxIncome": 500000 },
+      { "rate": 0.0699, "maxIncome": -1 }
+    ],
+    "DE": [
+      { "rate": 0.022, "maxIncome": 5000 },
+      { "rate": 0.039, "maxIncome": 10000 },
+      { "rate": 0.048, "maxIncome": 20000 },
+      { "rate": 0.052, "maxIncome": 25000 },
+      { "rate": 0.0555, "maxIncome": 60000 },
+      { "rate": 0.066, "maxIncome": -1 }
+    ],
+    "DC": [
+      { "rate": 0.04, "maxIncome": 10000 },
+      { "rate": 0.06, "maxIncome": 40000 },
+      { "rate": 0.065, "maxIncome": 60000 },
+      { "rate": 0.085, "maxIncome": 250000 },
+      { "rate": 0.095, "maxIncome": 350000 },
+      { "rate": 0.1025, "maxIncome": 1000000 },
+      { "rate": 0.1075, "maxIncome": -1 }
+    ],
+    "FL": [],
+    "GA": [
+      { "rate": 0.01, "maxIncome": 750 },
+      { "rate": 0.02, "maxIncome": 2250 },
+      { "rate": 0.03, "maxIncome": 3750 },
+      { "rate": 0.04, "maxIncome": 5250 },
+      { "rate": 0.05, "maxIncome": 7000 },
+      { "rate": 0.0549, "maxIncome": -1 }
+    ],
+    "HI": [
+      { "rate": 0.014, "maxIncome": 2400 },
+      { "rate": 0.032, "maxIncome": 4800 },
+      { "rate": 0.055, "maxIncome": 9600 },
+      { "rate": 0.064, "maxIncome": 14400 },
+      { "rate": 0.068, "maxIncome": 19200 },
+      { "rate": 0.072, "maxIncome": 24000 },
+      { "rate": 0.076, "maxIncome": 36000 },
+      { "rate": 0.079, "maxIncome": 48000 },
+      { "rate": 0.0825, "maxIncome": 150000 },
+      { "rate": 0.09, "maxIncome": 175000 },
+      { "rate": 0.1, "maxIncome": 200000 },
+      { "rate": 0.11, "maxIncome": -1 }
+    ],
+    "ID": [
+      { "rate": 0.01, "maxIncome": 1709 },
+      { "rate": 0.03, "maxIncome": 5127 },
+      { "rate": 0.045, "maxIncome": 8545 },
+      { "rate": 0.058, "maxIncome": -1 }
+    ],
+    "IL": [{ "rate": 0.0495, "maxIncome": -1 }],
+    "IN": [{ "rate": 0.0305, "maxIncome": -1 }],
+    "IA": [{ "rate": 0.04, "maxIncome": -1 }],
+    "KS": [
+      { "rate": 0.031, "maxIncome": 15000 },
+      { "rate": 0.0525, "maxIncome": 30000 },
+      { "rate": 0.057, "maxIncome": -1 }
+    ],
+    "KY": [{ "rate": 0.04, "maxIncome": -1 }],
+    "LA": [{ "rate": 0.0185, "maxIncome": -1 }],
+    "ME": [
+      { "rate": 0.058, "maxIncome": 26050 },
+      { "rate": 0.0675, "maxIncome": 61600 },
+      { "rate": 0.0715, "maxIncome": -1 }
+    ],
+    "MD": [
+      { "rate": 0.02, "maxIncome": 1000 },
+      { "rate": 0.03, "maxIncome": 2000 },
+      { "rate": 0.04, "maxIncome": 3000 },
+      { "rate": 0.0475, "maxIncome": 100000 },
+      { "rate": 0.05, "maxIncome": 125000 },
+      { "rate": 0.0525, "maxIncome": 150000 },
+      { "rate": 0.055, "maxIncome": 250000 },
+      { "rate": 0.0575, "maxIncome": -1 }
+    ],
+    "MA": [
+      { "rate": 0.05, "maxIncome": 1083150 },
+      { "rate": 0.09, "maxIncome": -1 }
+    ],
+    "MI": [{ "rate": 0.0425, "maxIncome": -1 }],
+    "MN": [
+      { "rate": 0.0535, "maxIncome": 31690 },
+      { "rate": 0.068, "maxIncome": 104760 },
+      { "rate": 0.0785, "maxIncome": 193240 },
+      { "rate": 0.0985, "maxIncome": -1 }
+    ],
+    "MS": [{ "rate": 0.04, "maxIncome": -1 }],
+    "MO": [
+      { "rate": 0, "maxIncome": 1000 },
+      { "rate": 0.015, "maxIncome": 2000 },
+      { "rate": 0.02, "maxIncome": 3000 },
+      { "rate": 0.025, "maxIncome": 4000 },
+      { "rate": 0.03, "maxIncome": 5000 },
+      { "rate": 0.035, "maxIncome": 6000 },
+      { "rate": 0.04, "maxIncome": 7000 },
+      { "rate": 0.045, "maxIncome": 8000 },
+      { "rate": 0.048, "maxIncome": -1 }
+    ],
+    "MT": [
+      { "rate": 0.01, "maxIncome": 3800 },
+      { "rate": 0.02, "maxIncome": 6500 },
+      { "rate": 0.03, "maxIncome": 9700 },
+      { "rate": 0.04, "maxIncome": 13600 },
+      { "rate": 0.05, "maxIncome": 18700 },
+      { "rate": 0.059, "maxIncome": 23600 },
+      { "rate": 0.065, "maxIncome": -1 }
+    ],
+    "NE": [
+      { "rate": 0.0246, "maxIncome": 4030 },
+      { "rate": 0.0351, "maxIncome": 23320 },
+      { "rate": 0.0466, "maxIncome": 35730 },
+      { "rate": 0.0558, "maxIncome": -1 }
+    ],
+    "NV": [],
+    "NH": [],
+    "NJ": [
+      { "rate": 0.014, "maxIncome": 20000 },
+      { "rate": 0.0175, "maxIncome": 35000 },
+      { "rate": 0.035, "maxIncome": 40000 },
+      { "rate": 0.05525, "maxIncome": 75000 },
+      { "rate": 0.0637, "maxIncome": 500000 },
+      { "rate": 0.0897, "maxIncome": 1000000 },
+      { "rate": 0.1075, "maxIncome": -1 }
+    ],
+    "NM": [
+      { "rate": 0.017, "maxIncome": 5500 },
+      { "rate": 0.032, "maxIncome": 11000 },
+      { "rate": 0.047, "maxIncome": 16500 },
+      { "rate": 0.059, "maxIncome": -1 }
+    ],
+    "NY": [
+      { "rate": 0.04, "maxIncome": 8500 },
+      { "rate": 0.045, "maxIncome": 11700 },
+      { "rate": 0.0525, "maxIncome": 13900 },
+      { "rate": 0.055, "maxIncome": 80650 },
+      { "rate": 0.06, "maxIncome": 215400 },
+      { "rate": 0.0685, "maxIncome": 1077550 },
+      { "rate": 0.0965, "maxIncome": 5000000 },
+      { "rate": 0.103, "maxIncome": 25000000 },
+      { "rate": 0.109, "maxIncome": -1 }
+    ],
+    "NC": [{ "rate": 0.045, "maxIncome": -1 }],
+    "ND": [
+      { "rate": 0.011, "maxIncome": 48475 },
+      { "rate": 0.0195, "maxIncome": 80500 },
+      { "rate": 0.022, "maxIncome": 175150 },
+      { "rate": 0.026, "maxIncome": 282000 },
+      { "rate": 0.029, "maxIncome": -1 }
+    ],
+    "OH": [
+      { "rate": 0, "maxIncome": 26050 },
+      { "rate": 0.0275, "maxIncome": -1 }
+    ],
+    "OK": [
+      { "rate": 0.0025, "maxIncome": 1000 },
+      { "rate": 0.0075, "maxIncome": 2500 },
+      { "rate": 0.0175, "maxIncome": 3750 },
+      { "rate": 0.0275, "maxIncome": 4900 },
+      { "rate": 0.0375, "maxIncome": 7200 },
+      { "rate": 0.0475, "maxIncome": -1 }
+    ],
+    "OR": [
+      { "rate": 0.0475, "maxIncome": 4100 },
+      { "rate": 0.0675, "maxIncome": 10200 },
+      { "rate": 0.0875, "maxIncome": 125000 },
+      { "rate": 0.099, "maxIncome": -1 }
+    ],
+    "PA": [{ "rate": 0.0307, "maxIncome": -1 }],
+    "RI": [
+      { "rate": 0.0375, "maxIncome": 77100 },
+      { "rate": 0.0475, "maxIncome": 174700 },
+      { "rate": 0.0599, "maxIncome": -1 }
+    ],
+    "SC": [
+      { "rate": 0, "maxIncome": 3370 },
+      { "rate": 0.03, "maxIncome": 6740 },
+      { "rate": 0.04, "maxIncome": 10110 },
+      { "rate": 0.05, "maxIncome": 13480 },
+      { "rate": 0.06, "maxIncome": 16850 },
+      { "rate": 0.064, "maxIncome": -1 }
+    ],
+    "SD": [],
+    "TN": [],
+    "TX": [],
+    "UT": [{ "rate": 0.0465, "maxIncome": -1 }],
+    "VT": [
+      { "rate": 0.0335, "maxIncome": 48475 },
+      { "rate": 0.066, "maxIncome": 117000 },
+      { "rate": 0.076, "maxIncome": 242500 },
+      { "rate": 0.0875, "maxIncome": -1 }
+    ],
+    "VA": [
+      { "rate": 0.02, "maxIncome": 3000 },
+      { "rate": 0.03, "maxIncome": 5000 },
+      { "rate": 0.05, "maxIncome": 17000 },
+      { "rate": 0.0575, "maxIncome": -1 }
+    ],
+    "WA": [],
+    "WV": [
+      { "rate": 0.0236, "maxIncome": 10000 },
+      { "rate": 0.0315, "maxIncome": 25000 },
+      { "rate": 0.0393, "maxIncome": 40000 },
+      { "rate": 0.0512, "maxIncome": 60000 },
+      { "rate": 0.0512, "maxIncome": -1 }
+    ],
+    "WI": [
+      { "rate": 0.035, "maxIncome": 14520 },
+      { "rate": 0.044, "maxIncome": 29040 },
+      { "rate": 0.053, "maxIncome": 319410 },
+      { "rate": 0.0765, "maxIncome": -1 }
+    ],
+    "WY": []
+  },
+  "city": {
+    "NY": {
+      "NYC": [
+        { "rate": 0.03078, "maxIncome": 12000 },
+        { "rate": 0.03762, "maxIncome": 25000 },
+        { "rate": 0.03819, "maxIncome": 50000 },
+        { "rate": 0.03876, "maxIncome": -1 }
+      ]
+    },
+    "PA": {
+      "Philadelphia": [{ "rate": 0.038712, "maxIncome": -1 }]
+    },
+    "MD": {
+      "Baltimore": [{ "rate": 0.032, "maxIncome": -1 }]
+    },
+    "MO": {
+      "Kansas City": [{ "rate": 0.01, "maxIncome": -1 }],
+      "St. Louis": [{ "rate": 0.01, "maxIncome": -1 }]
+    },
+    "MI": {
+      "Detroit": [{ "rate": 0.024, "maxIncome": -1 }]
+    },
+    "DE": {
+      "Wilmington": [{ "rate": 0.0125, "maxIncome": -1 }]
+    },
+    "OH": {
+      "Columbus": [{ "rate": 0.025, "maxIncome": -1 }]
+    },
+    "KY": {
+      "Louisville": [{ "rate": 0.0145, "maxIncome": -1 }]
+    },
+    "IN": {
+      "Indianapolis": [{ "rate": 0.0202, "maxIncome": -1 }]
+    },
+    "AL": {
+      "Birmingham": [{ "rate": 0.01, "maxIncome": -1 }],
+      "Bessemer": [{ "rate": 0.01, "maxIncome": -1 }],
+      "Gadsden": [{ "rate": 0.02, "maxIncome": -1 }],
+      "Macon County": [{ "rate": 0.01, "maxIncome": -1 }]
+    },
+    "NJ": {
+      "Newark": [{ "rate": 0.01, "maxIncome": -1 }]
+    },
+    "CA": {
+      "San Francisco": [{ "rate": 0.0038, "maxIncome": -1 }]
+    }
+  },
+  "fica": {
+    "socialSecurityRate": 0.062,
+    "socialSecurityLimit": 177300,
+    "medicareRate": 0.0145,
+    "medicareAdditionalRate": 0.009,
+    "medicareAdditionalThresholds": {
+      "single": 200000,
+      "marriedJointly": 250000,
+      "marriedSeparately": 125000,
+      "headOfHousehold": 200000
+    }
+  },
+  "sdi": {
+    "CA": { "rate": 0.011, "maxWage": 160174, "maxContribution": 1761.91, "maxWeeklyDeduction": null },
+    "NJ": { "rate": 0.0, "maxWage": 161400, "maxContribution": 0, "maxWeeklyDeduction": null },
+    "NY": { "rate": 0.005, "maxWage": null, "maxContribution": null, "maxWeeklyDeduction": 0.60 },
+    "RI": { "rate": 0.012, "maxWage": 87000, "maxContribution": 1044, "maxWeeklyDeduction": null },
+    "HI": { "rate": 0.005, "maxWage": null, "maxContribution": null, "maxWeeklyDeduction": 6.82 }
+  }
+}
